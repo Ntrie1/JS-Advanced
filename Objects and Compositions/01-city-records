@@ -1,0 +1,17 @@
+function cityTaxes(name, population, treasury){
+
+    const result = {
+
+        name: name,
+        population: population,
+        treasury: treasury
+    };
+
+   return result;
+
+
+
+}cityTaxes('Tortuga',
+7000,
+15000
+)
