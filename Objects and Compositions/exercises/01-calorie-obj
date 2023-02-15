@@ -1,0 +1,16 @@
+function calorieObject(arr) {
+    let obj = {};
+    for (let i = 0; i < arr.length; i++) {
+        const element = arr[i];
+        const calories = arr[i + 1];
+        console.log(element, calories);
+        if (i % 2 == 0){
+            obj[element] = Number(calories);
+        }
+    }
+
+    return obj;
+
+
+
+} calorieObject(['Yoghurt', '48', 'Rise', '138', 'Apple', '52']);
