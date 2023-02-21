@@ -1,0 +1,7 @@
+function editElement(reference, match, reaplcer) {
+    // TODO
+    let text = reference.textContent;
+    let result = text.split(match).join(reaplcer);
+
+    reference.textContent = result;
+}
